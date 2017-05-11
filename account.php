@@ -1,0 +1,128 @@
+
+<?php 
+if (isset($_POST['acsubmit'])) {
+	# code...
+	if (empty($_POST['phone'])) {
+		# code...
+		$ph_err="Fill this form";
+	} else {
+		# code...
+		if ($_POST['phone']) {
+			# code...
+
+		} else {
+			# code...
+		}
+		
+	}
+	
+}
+
+ ?>
+<!DOCTYPE html>
+<html>
+<head>
+
+<link rel="stylesheet" type="text/css" href="css/it.css">
+<link rel="stylesheet" href="css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<link rel="stylesheet" href="css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+<script src="js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	<title>Home</title>
+</head>
+<body>
+	<div id="container">
+	<div class="row">
+		<div class="col-sm-1"></div>
+		<div class="col-sm-10">
+		<div id="header">
+			<div id="header">
+			<div class="row">
+			<div class="col-sm-4"><a href="main.html"><img src="images/prototype.png"></a></div>
+			<div class="col-sm-8">
+				<div class="row" >
+					<nav >
+						<div id="fmenu">
+							<div class="container-fluid"> 
+							<div >
+							<?php 
+								//include 'register.php';
+								if ($eml=="uzoqov.95@mail.ru" && $password=="123456") {
+									# code...
+									?><li><a href="userinfo.html"><span class="glyphicon glyphicon-briefcase"></span>Users </a></li><?php
+								} else {
+									# code...
+									?><li><a href="#" onclick="jsAlert()"><span class="glyphicon glyphicon-briefcase"></span>Jobs </a></li><?php
+								}
+								?>
+								<li><a href="#"><span class="glyphicon glyphicon-send"></span> Send files</a></li>
+								<li><a href="#"><span class="glyphicon glyphicon-facetime-video"></span> Whiteboard</a></li>
+								<li><a href="#"><span class="glyphicon glyphicon-facetime-video"></span> Net Meeting</a></li>
+								<li><a href="#"><span class="glyphicon glyphicon-cog"></span>Tools</a></li>
+								<li><a href="#"><span class="glyphicon glyphicon-facetime-video"></span>Balance: </a></li>
+							</ul>	
+							</div>
+							
+						</div>
+						</div>
+					</nav>
+				</div>
+				<div class="row">
+					<nav >
+						<div id="smenu"> 
+							<div class="collapse navbar-collapse">
+								<ul class="nav navbar-nav">
+								<li><a href="it.html"><span class="glyphicon glyphicon-home"></span>Preuniversity </a></li>
+								<li><a href="#"><span class="glyphicon glyphicon-download"></span>Undergraduate</a></li>
+								<li><a href="#"><span class="glyphicon glyphicon-user"></span>Master</a></li>
+								<li><a href="#"><span class="glyphicon glyphicon-play-circle"></span>Life</a></li>
+								<li><a href="#"><span class="glyphicon glyphicon-facetime-video"></span>FAQ</a></li>
+								<li><a href="#"><span class="glyphicon glyphicon-earphone"></span>About us</a></li>
+								<li><a href="main.html"><span class="glyphicon glyphicon-earphone"></span>Log out</a></li>
+							</ul>	
+							</div>
+							
+						</div>
+					</nav>
+				</div>
+			</div>
+			</div>
+		</div>
+		</div>	
+			<div >
+						
+			</div>
+						
+		<div id="account0">
+			<h2 id="account1">Account Balance:</h2></br>
+			<h3>You can buy books by filling out balance!</h3>
+			<p>Now There is only way for payment:</p></br>
+			<form action="account.php" method="post" enctype="multipart/form-data">
+				<table>
+					<tr>
+						<td>Phone number:</td>
+						<td><input type="text" name="phone"></td>
+					</tr>
+					<tr>
+						<td>Amount: </td>
+						<td><input type="text" name="amount"></td>
+					</tr>
+					<tr>
+						<td><input type="submit" name="acsubmit" value="Take"></td>
+					</tr>
+				</table>
+			</form>
+			
+		</div>			
+		
+
+		<div id="footer">
+			
+		</div>
+		</div>
+		<div class="col-sm-1"></div>
+	</div>
+	</div>
+
+</body>
+</html>

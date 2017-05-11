@@ -1,0 +1,85 @@
+#fmenu a
+{
+	color: #C0C0C0;
+}
+#smenu a
+{
+	color: black;
+	font-weight: bold;
+}	
+#container
+{
+	margin: 0;
+	padding: 0;
+
+}
+#header
+{
+	border-bottom: 1px solid black;
+}
+#menu
+{
+	
+	margin:0;
+	padding: 0;
+	padding-bottom: 50px;
+	background-image: url('../images/hmback.png');
+	background-repeat: repeat;
+}
+#tmenu a
+{
+	color: black;
+	font-weight: bold;
+}
+#container
+{
+	margin: 0;
+	padding: 0;
+	position: center;
+	border-left: 1px solid black;
+	border-right: 1px solid black;
+}
+#leftmenu
+{
+	background-color: #E8E8E8;
+}
+#leftmenu li
+{
+	list-style: none;
+
+
+}
+#leftmenu ul li a
+{
+	
+	color: black;
+	font-size: 20px;
+	text-decoration: none;
+	background-image: url(../images/leftmenu_link.png);
+	background-repeat: repeat-x;
+	 
+	text-align: left;
+	padding-left: 0;
+	
+	
+	height: 30px;
+	display: block;
+	font-size: 12px;
+	
+}
+#leftmenu li a:hover
+{
+	font-weight: bold;
+
+
+}
+#reference li a
+{
+	font-weight: bold;
+	font-size: 15px;
+}
+#reference li a:hover
+{
+	font-size: 18px;
+}
+

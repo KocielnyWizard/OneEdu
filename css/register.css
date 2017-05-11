@@ -1,0 +1,103 @@
+body
+{
+
+}
+#mainm
+{
+	color: white;
+	font-size: 30px;
+}
+#menu
+{
+	background-image: url('../images/crsl2.jpg');
+	background-position: center;
+	background-size: cover;	
+
+}
+#menu a
+{
+	color: black;
+}
+#fmenu a
+{
+	color: #C0C0C0;
+}
+#smenu a
+{
+	color: black;
+	font-weight: bold;
+}
+#header a
+{
+	
+}
+#header a:hover
+{
+	background-color: #A9A9A9;
+}
+#container
+{
+	margin: 0;
+	padding: 0;
+	height: 100%;
+
+}
+#footer
+{
+	background-color: #D3D3D3;
+	position: fixed;
+	bottom: 0;
+	right: 0;
+	background-color: #EFEFEF;
+	text-align: center;
+	
+
+	
+}
+#register tr
+{
+	color: black;
+	font-size: 17px;
+}
+#register p
+{
+	color: white;
+}
+#login tr
+{
+	color: black;
+	font-size: 17px;
+}
+#login p
+{
+	color: white;
+}
+
+#login
+{
+	display: none;
+}
+#content table
+{
+	border-right: 1px solid black;
+	border-left: 1px solid black;
+}
+#content td
+{
+	margin: 5px;
+	padding: 5px;
+	border: 1px solid #C0C0C0;
+}
+#error
+{
+	color: red;
+	font-weight: bold;
+}
+#register
+{
+	display: none;
+}
+#login
+{
+	display: none;
+}

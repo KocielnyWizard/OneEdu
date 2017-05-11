@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="css/it.css">
+<link rel="stylesheet" href="css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<link rel="stylesheet" href="css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+<script src="js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	<title>Home</title>
+</head>
+<body>
+	<div id="container">
+	<div class="row">
+		<div class="col-sm-1"></div>
+		<div class="col-sm-10">
+		<div id="header">
+			<div id="header">
+			<div class="row">
+			<div class="col-sm-4"><a href="main.html"><img src="images/prototype.png"></a></div>
+			<div class="col-sm-8">
+				<div class="row" >
+					<nav >
+						<div id="fmenu">
+							<div class="container-fluid"> 
+							<div >
+								<ul class="nav navbar-nav">
+								<?php 
+								include 'register.php';
+								if ($eml=="uzoqov.95@mail.ru" && $password=="123456") {
+									# code...
+									?><li><a href="userinfo.html"><span class="glyphicon glyphicon-briefcase"></span>Users </a></li><?php
+								} else {
+									# code...
+									?><li><a href="#" onclick="jsAlert()"><span class="glyphicon glyphicon-briefcase"></span>Jobs </a></li><?php
+								}
+								?>
+								<li><a href="#"><span class="glyphicon glyphicon-send"></span> Send files</a></li>
+								<li><a href="#"><span class="glyphicon glyphicon-facetime-video"></span> Whiteboard</a></li>
+								<li><a href="#"><span class="glyphicon glyphicon-facetime-video"></span> Net Meeting</a></li>
+								<li><a href="#"><span class="glyphicon glyphicon-cog"></span>Tools</a></li>
+								<li><a href="account.html"><span class="glyphicon glyphicon-facetime-video"></span>Balance: </a></li>
+							</ul>	
+							</div>
+							
+						</div>
+						</div>
+					</nav>
+				</div>
+				<div class="row">
+					<nav >
+						<div id="smenu"> 
+							<div class="collapse navbar-collapse">
+								<ul class="nav navbar-nav">
+								<li><a href="it.html"><span class="glyphicon glyphicon-home"></span>Preuniversity </a></li>
+								<li><a href="#"><span class="glyphicon glyphicon-download"></span>Undergraduate</a></li>
+								<li><a href="#"><span class="glyphicon glyphicon-user"></span>Master</a></li>
+								<li><a href="#"><span class="glyphicon glyphicon-play-circle"></span>Life</a></li>
+								<li><a href="#"><span class="glyphicon glyphicon-facetime-video"></span>FAQ</a></li>
+								<li><a href="aboutus.html"><span class="glyphicon glyphicon-earphone"></span>About us</a></li>
+								<li><a href="#"><span class="glyphicon glyphicon-earphone"></span>Log out</a></li>
+							</ul>	
+							</div>
+							
+						</div>
+					</nav>
+				</div>
+			</div>
+			</div>
+		</div>
+		</div>	
+			<div id="menu">
+						<div id="tmenu"> 
+							<ul class="nav navbar-nav">
+								<li class="active"><a href="#"><span class="glyphicon glyphicon-home"></span> IT </a></li>
+								<li><a href="#"><span class="glyphicon glyphicon-home"></span>Math </a></li>
+								<li><a href="#"><span class="glyphicon glyphicon-download"></span>Physics</a></li>
+								<li><a href="#"><span class="glyphicon glyphicon-user"></span>Chemistry</a></li>
+								<li><a href="#"><span class="glyphicon glyphicon-play-circle"></span>Biology</a></li>
+								<li><a href="#"><span class="glyphicon glyphicon-home"></span>History</a></li>
+								<li><a href="#"><span class="glyphicon glyphicon-download"></span>English</a></li>
+								<li><a href="#"><span class="glyphicon glyphicon-user"></span>Russian</a></li>
+								<li><a href="#"><span class="glyphicon glyphicon-play-circle"></span>Mother tongue</a></li>
+								</ul>	
+
+						</div>
+			</div>
+						
+		<div id="content">
+			<div class="row">
+				<div id="left" >
+					<div class="col-sm-2">
+						<div id="leftmenu">
+						<h4>Starting</h4>
+						<ul>
+							<li class="active"><a href="it_cstart.html">Starting</a></li>
+							<li><a href="#">Content</a></li>
+							<li><a href="#">Content</a></li>
+							<li><a href="#">Content</a></li>
+							<li><a href="#">Content</a></li>
+							<li><a href="#">Content</a></li>
+						</ul>
+						<h4>Top</h4>
+						<ul>
+							<li><a href="#">Starting</a></li>
+							<li><a href="#">Content</a></li>
+							<li><a href="#">Content</a></li>
+							<li><a href="#">Content</a></li>
+							<li><a href="#">Content</a></li>
+							<li><a href="#">Content</a></li>
+						</ul>
+						<h4>References</h4>
+						<div id="reference">
+							<ul>
+							<li><a href="it_cvideo.html">Videos</a></li>
+							<li><a href="it_cdown.html">Downloads</a></li>
+							<li><a href="it_ccontutor.html">Connect tutor</a></li>
+							<li><a href="it_cask.html">Ask?</a></li>
+						</ul>
+						</div>
+						</div>
+						</div>
+						
+					</div>
+				
+				<div class="col-sm-10">
+					<table>
+						<tr>
+							<td><a href="#"><img src="images/tblesm.png"></a></td>
+							<td><a href="#"><img src="images/tblesm.png"></a></td>
+							<td><a href="#"><img src="images/tblesm.png"></a></td>
+							<td><a href="#"><img src="images/tblesm.png"></a></td>
+						</tr>
+						<tr>
+							<td><a href="#"><img src="images/tblesm.png"></a></td>
+							<td><a href="#"><img src="images/tblesm.png"></a></td>
+							<td><a href="#"><img src="images/tblesm.png"></a></td>
+							<td><a href="#"><img src="images/tblesm.png"></a></td>
+						</tr>
+						<tr>
+							<td><a href="#"><img src="images/tblesm.png"></a></td>
+							<td><a href="#"><img src="images/tblesm.png"></a></td>
+							<td><a href="#"><img src="images/tblesm.png"></a></td>
+							<td><a href="#"><img src="images/tblesm.png"></a></td>
+						</tr>
+						<tr>
+							<td><a href="#"><img src="images/tblesm.png"></a></td>
+							<td><a href="#"><img src="images/tblesm.png"></a></td>
+							<td><a href="#"><img src="images/tblesm.png"></a></td>
+							<td><a href="#"><img src="images/tblesm.png"></a></td>
+						</tr>
+					</table>
+				</div>
+			</div>
+		</div>			
+		
+
+		<div id="footer">
+			
+		</div>
+		</div>
+		<div class="col-sm-1"></div>
+	</div>
+	</div>
+
+</body>
+</html>
